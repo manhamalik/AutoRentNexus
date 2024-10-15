@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+Multani');
 
 :root {
-    --main-color: #1a4891;
-    --accent-color: #dfc29d;
+    --main-color: #0a2e77;
+    --accent-color: #A0FFCD;
 }
 
 /* FFDD57 */
@@ -127,7 +127,7 @@ iframe, video {
     border-radius: 8px;
 }
 
-.strapi-image {
+.mongodb-image {
     width: 50%;
     border-radius: 10px;
     display: block;
@@ -363,4 +363,20 @@ footer {
 
 .social-icons a:hover {
     color: var(--accent-color);
+}
+
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--accent-color);
+    border-radius: 20px;
 }
