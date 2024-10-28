@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GlobalGuideAI</title>
-    <link rel="icon" href="images/GGAicon.png" type="image/png">
+    <title>BrainTumourDetectionAI</title>
+    <link rel="icon" href="images/tb.png" type="image/png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism-tomorrow.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/prism.min.js"></script>
@@ -15,11 +15,11 @@
     <header>
                 <!-- GIF Preview -->
                 <div class="gif">
-                    <img src="images/GGAGIF.gif" alt="GlobalGuideAI Website GIF">
+                    <img src="images/bttd.png" alt="BrainTumourDetectionAI Website GIF">
                 </div>
         
         <div class="github-logo-container">
-            <a href="https://github.com/manhamalik/GlobalGuideAICode" target="_blank" class="github-btn" aria-label="Visit Project GitHub">
+            <a href="https://github.com/manhamalik/Brain_Tumour_Detection_AI" target="_blank" class="github-btn" aria-label="Visit Project GitHub">
                 <i class="fab fa-github"></i>
             </a>
         </div>
@@ -35,23 +35,22 @@
   <section class="content">
     <div class="container">
         <div class="description top-slide-target">
-            <h1>GlobalGuideAI: Your AI-Powered Travel Companion</h1>
+            <h1>BrainTumourDetectionAI: Accelerating Medical Diagnosis</h1>
             <p>
-                GlobalGuideAI is an intelligent travel assistant that transforms how you plan and explore destinations worldwide. 
-                By harnessing advanced technologies like Python, JavaScript, Flask, MongoDB, and natural language processing (NLP) 
-                with spaCy, GlobalGuideAI offers personalized travel recommendations tailored to your preferences. Whether you're 
-                seeking hotels, restaurants, attractions, or shopping centers, GlobalGuideAI provides curated information to enhance 
-                your travel experiences.
+                Brain Tumour Detection AI is an advanced deep learning project aimed at aiding medical professionals in the early detection of 
+                brain tumours using MRI scans. By leveraging state-of-the-art convolutional neural networks (CNNs) and transfer learning with 
+                pre-trained models like VGG16, InceptionV3, and ResNet50, the project achieved up to 99% accuracy in classifying MRI images for 
+                tumour presence. Integrated with Gradio, it provides a real-time interface for testing, ensuring seamless deployment and reliable
+                results across diverse datasets.
             </p>
             <p><strong>Technologies and Tools:</strong></p>
-<ul>
-    <li><strong>Back-End:</strong> Python, Flask, MongoDB</li>
-    <li><strong>Front-End:</strong> JavaScript, HTML, CSS</li>
-    <li><strong>AI & NLP:</strong> spaCy (Natural Language Processing)</li>
-    <li><strong>Development & Collaboration:</strong> GitHub, Visual Studio Code</li>
-    <li><strong>Design & Prototyping:</strong> Figma, Adobe (XD, Photoshop, Illustrator)</li>
-</ul>
-
+                <ul>
+                    <li><strong>Programming:</strong> Python</li>
+                    <li><strong>Machine Learning & Deep Learning:</strong> TensorFlow, Keras, VGG16, InceptionV3, ResNet50</li>
+                    <li><strong>Data Science & Visualization:</strong> NumPy, Matplotlib, Pandas</li>
+                    <li><strong>Image Processing & Computer Vision:</strong> OpenCV</li>
+                    <li><strong>Development & Deployment:</strong> Gradio, Google Colab, Kaggle API, GitHub</li>
+                </ul>
         </div>
     </div>
   </section>
@@ -61,54 +60,50 @@
     <div class="container">
         <div class="methodologies">
             <h2>Development Process & Methodologies</h2>
-            <h3 class="top-slide-target">Agile Methodology</h3>
+            <h3 class="top-slide-target">Agile & Scrum Methodologies</h3>
             <p class="top-slide-target">
-                The development of GlobalGuideAI embraced Agile principles, organizing tasks into sprints to ensure continuous progress and 
-                adaptability to evolving requirements. Each sprint focused on implementing specific features, followed by reviews and retrospectives
-                 to reflect on accomplishments and plan subsequent steps. This iterative approach facilitated timely adjustments and enhancements 
-                 throughout the development cycle.
+                The development process adhered to Agile principles, organized into iterative sprints focusing on data preprocessing, 
+                model development, and evaluation. Scrum practices facilitated tracking progress, conducting regular reviews, and 
+                adapting to evolving requirements. This ensured that challenges were promptly addressed, and key features like model
+                optimization and real-time testing were effectively prioritized and delivered.
             </p>
             <h3 class="top-slide-target">Testing</h3>
             <p class="top-slide-target">
-                <b>1. Unit Testing:</b> Rigorous testing of core functionalities, especially the chatbot's response handling and data retrieval from MongoDB, ensured accuracy and reliability.
-                <br><b>2. Integration Testing:</b> Verified seamless interaction between components like the NLP processing with spaCy and database queries.
-                <br><b>3. Manual Testing:</b> Conducted across various devices and browsers to guarantee responsiveness and an optimal user experience.
-                <br><b>4. NLP Accuracy Testing:</b> Assessed the chatbot's ability to understand diverse user inputs, refining keyword matching and fallback mechanisms.
+                <b>1. Cross-Validation:</b> Used to assess the model's ability to generalize to unseen data.
+                <br><b>2. Evaluation Metrics:</b> Accuracy, sensitivity, specificity, AUC, and AUROC were calculated to evaluate model performance.
+                <br><b>3. Manual Testing:</b> Diverse MRI images were used to manually test the models, ensuring robustness and reliability.
+                <br><b>4. Continuous Monitoring:</b> Training logs and graphs were analyzed to detect overfitting and underfitting.
             </p>
         </div>
     </div>
   </section>
 
-  <!-- Figma Design Process -->
+  <!-- Design Process -->
   <section class="content">
     <div class="container">
         <!-- User Stories -->
-        <h2 class="top-slide-target">Figma Design Process (User Stories, Site Map, Wireframes, Prototype)</h2>
+        <h2 class="top-slide-target">Design Process (User Stories, Site Map, Wireframes, Prototype)</h2>
         <div class="explanation-visuals">
             <div class="explanation left">
                 <h3>User Stories</h3>
-                <p>The User Stories focus on capturing the needs and goals of different users interacting with GlobalGuideAI. 
-                    They guided the development process to ensure that the platform delivers valuable and intuitive experiences tailored to user expectations.
+                <p>User stories were developed to prioritize essential user experiences, focusing on medical professionals, researchers, and developers.
                 </p>
             </div>
             <div class="visual right">
-                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="600" height="400" src="https://embed.figma.com/design/AXIGWWxUVrfCiGe3jUaQiA/GlobalGuideAI?node-id=184-3207&embed-host=share" allowfullscreen></iframe>
+                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="600" height="400" src="https://embed.figma.com/design/2lH5mnVR0sfLVjEBxBEmL7/BrainTumourDetectionAI?node-id=184-3207&embed-host=share" allowfullscreen loading="lazy"></iframe>
             </div>
         </div>
 
-        <!-- Site Map -->
+        <!-- Data Flow Diagram -->
         <div class="explanation-visuals">
             <div class="visual left">
-                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="600" height="400" src="https://embed.figma.com/design/AXIGWWxUVrfCiGe3jUaQiA/GlobalGuideAI?node-id=186-3225&embed-host=share" allowfullscreen></iframe>
+                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="600" height="400" src="https://embed.figma.com/design/2lH5mnVR0sfLVjEBxBEmL7/BrainTumourDetectionAI?node-id=186-3225&embed-host=share" allowfullscreen loading="lazy"> </iframe>
             </div>
             <div class="explanation right">
-                <h3>Site Map</h3>
+                <h3>Data Flow Diagram</h3>
                 <p>
-                    A concise Site Map was developed to ensure intuitive navigation and a clear content structure for GlobalGuideAI users. The site is organized 
-                    into three main sections: the Landing Page featuring engaging animations like the decode text effect and typewriter tagline; the Middle Information
-                     Section explaining what GlobalGuideAI is, how it works, and why users should choose it; and the Chatbot Section, where users interact with the AI 
-                     assistant for personalized travel recommendations. This straightforward layout enhances the user journey by making key features easily accessible and 
-                     understandable.          
+                    The Data Flow Diagram shows the process from MRI image upload to prediction display. Images are input, preprocessed, and used for model training. 
+                    Trained models are saved, enabling users to upload images via Gradio for inference. The system then outputs a prediction with confidence scores for easy interpretation.         
                 </p>
             </div>
         </div>
@@ -116,33 +111,21 @@
         <!-- Wireframes -->
         <div class="explanation-visuals">
             <div class="explanation left">
-                <h3>Wireframes</h3>
+                <h3>Model Architecture</h3>
                 <p>
-                    Low-fidelity Wireframes were created to outline the structure and layout of GlobalGuideAI's key components. They focused on the placement of elements 
-                    such as the decode text animation, typewriter effect, information boxes with icons and text, and the interactive chat area. Emphasis was placed on 
-                    responsive design, ensuring the layout adapts seamlessly across both mobile and desktop devices. This approach guarantees users have a consistent and 
-                    user-friendly experience regardless of the device they use.
-                    </p>
+                    The model architecture combines a custom CNN with transfer learning models (VGG16, InceptionV3, ResNet50) to maximize prediction accuracy. 
+                    Custom layers were developed to optimize the models' ability to detect tumours in MRI scans, providing a robust and versatile solution for brain tumour detection.
+                </p>
             </div>
             <div class="visual right">
-                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="600" height="400" src="https://embed.figma.com/design/AXIGWWxUVrfCiGe3jUaQiA/GlobalGuideAI?node-id=116-3190&embed-host=share" allowfullscreen></iframe>
+                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="600" height="400" src="https://embed.figma.com/design/2lH5mnVR0sfLVjEBxBEmL7/BrainTumourDetectionAI?node-id=9426-5&embed-host=share" allowfullscreen loading="lazy"></iframe>
             </div>
         </div>
 
         <!-- Prototype (Desktop & Mobile) -->
         <div class="explanation-visuals">
-            <div class="visual left">
-                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="600" height="400" src="https://embed.figma.com/design/AXIGWWxUVrfCiGe3jUaQiA/GlobalGuideAI?node-id=5101-56&embed-host=share" allowfullscreen></iframe>
-            </div>
-            <div class="explanation right">
-                <h3>Prototype (Desktop & Mobile)</h3>
-                <p>High-fidelity prototypes were developed for both desktop and mobile views, ensuring full responsiveness. 
-                    High-fidelity Prototypes were developed using Figma for both desktop and mobile views, ensuring full responsiveness of GlobalGuideAI. These prototypes 
-                    included all key pages and features: the dynamic landing page with its animations, the informative middle section with content and icons, and the 
-                    interactive chatbot interface. They allowed simulation of user interactions, such as clicking the "Try it out" button to scroll smoothly to the chatbot 
-                    section and typing messages to the chatbot. This process ensured a cohesive user experience and enhanced the overall usability of the platform.    
-                </p>
-            </div>
+            
+            
         </div>
     </div>
   </section>
@@ -151,44 +134,70 @@
   <section class="content">
     <div class="container">
         <h2 class="top-slide-target">Feature Demonstrations</h2>
-        <!-- Hero Section -->
+        <!-- VGG16 Model -->
         <div class="explanation-visuals">
             <div class="explanation left">
-                <h3>Hero Section</h3>
+                <h3>VGG16 Model Test</h3>
                 <p>
-                    The video opens with a captivating decode text animation revealing "GlobalGuideAI," followed by a typewriter effect showing the 
-                    tagline "Discover the World's Hidden Treasures." A prominent "Try it out" button invites users to engage, setting an interactive 
-                    tone for exploring the site’s features.
+                    Using VGG16 for feature extraction, the AI model processes uploaded MRI images to predict tumour presence, displaying tumour probabilities
+                     along with training accuracy and loss graphs. This model achieves a validation accuracy of approximately 98.82%.
                 </p>
             </div>
             <div class="visual right">
-                <video src="videos/GGA1.mp4" controls width="100%"></video>
+                <video src="videos/VGG16.mp4" controls width="100%"></video>
             </div>
         </div>
 
-        <!-- Section 2: Introducing GlobalGuideAI -->
+        <!-- ResNet50 Model -->
         <div class="explanation-visuals">
             <div class="visual left">
-                <video src="videos/GGA2.mp4" controls width="100%"></video>
+                <video src="videos/ResNet50.mp4" controls width="100%"></video>
             </div>
             <div class="explanation right">
-                <h3>Introducing GlobalGuideAI: What, How, and Why</h3>
+                <h3>ResNet50 Model Test</h3>
                 <p>
-                    The next section highlights three info boxes explaining what GlobalGuideAI is, how it works, and why it's beneficial. Each box 
-                    features an icon, brief text, and a hover animation to boost interactivity and user engagement, clearly conveying the platform’s value.
+                    With ResNet50 as the feature extractor, the model provides confidence scores for tumour prediction after an MRI upload. 
+                    Training and validation graphs confirm strong performance, reaching around 98.95% validation accuracy with effective learning.
                 </p>
             </div>
         </div>
 
-        <!-- Chatbot Interaction -->
+        <!-- InceptionV3 Model -->
         <div class="explanation-visuals">
             <div class="explanation left">
-                <h3>Chatbot Interaction</h3>
+                <h3>InceptionV3 Model Test</h3>
                 <p>
-                    The chatbot interaction video showcases GlobalGuideAI's use of natural language processing to handle various user inputs, even vague 
-                    or uncertain ones. The chatbot smoothly guides the conversation, offering personalized travel recommendations and linking directly to 
-                    relevant resources. This interaction highlights the project's focus on user engagement, showing how effectively the chatbot provides 
-                    tailored travel information, making exploration simple and intuitive.
+                    This model utilizes InceptionV3 for feature extraction, predicting tumour likelihood from uploaded MRI images. 
+                    Training and validation graphs show a validation accuracy of about 96.57%.
+                </p>
+            </div>
+            <div class="visual right">
+                <video src="videos/InceptionV3.mp4" controls width="100%"></video>
+            </div>
+        </div>
+
+        <!-- CNN Model -->
+        <div class="explanation-visuals">
+            <div class="visual left">
+                <video src="videos/CNN.mp4" controls width="100%"></video>
+            </div>
+            <div class="explanation right">
+                <h3>Custom CNN Model Test</h3>
+                <p>
+                    Built from scratch, the custom CNN model processes MRI images without pre-trained weights, offering high-confidence predictions. 
+                    Training and validation graphs indicate robust performance, achieving a validation accuracy of approximately 99.10%.
+                </p>
+            </div>
+        </div>
+
+        <!-- Gradio Interface and Code Walkthrough -->
+        <div class="explanation-visuals">
+            <div class="explanation left">
+                <h3>Gradio Interface and Code Walkthrough</h3>
+                <p>
+                    This video provides a guided walkthrough of the Google Colab environment, showcasing the code structure, validation loss and accuracy
+                     charts, dataset visualizations, and the various models used, including pretrained architectures.
+                      It highlights the model training processes and results.
                 </p>
             </div>
             <div class="visual right">
@@ -196,64 +205,28 @@
             </div>
         </div>
 
-        <!-- Strapi Integration Breakdown -->
-    <section>
-                <h2>MongoDB Integration Overview</h2>
-                <p class="top-slide-target">
-                    MongoDB serves as the core database for GlobalGuideAI, storing comprehensive travel information for various cities.
-                    <ul>
-                        <li><b>Collections:</b> The primary collection is <b>Tinfo</b>, which holds documents for each city.</li>
-                        <li><b>Documents:</b> Each document contains fields such as:
-                            <ul>
-                                <li><b>City:</b> Name of the city.</li>
-                                <li><b>Hotels, Restaurants, Attractions, Shopping:</b> Lists of top places in each category.</li>
-                                <li><b>Hotel Links, Restaurant Links, Attraction Links, Shopping Links:</b> URLs providing more information about specific places.</li>
-                            </ul>
-                        </li>
-                    </ul>
-                </p>
-                
-                <h3 class="top-slide-target">Data Retrieval and Dynamic Content</h3>
-                <p class="top-slide-target">
-                    <ul>
-                        <li><b>The Flask application</b> uses the <b>pymongo</b> library to query MongoDB based on user input.</li>
-                        <li>When a user mentions a city or requests information about a specific category, the application retrieves the relevant data from the database.</li>
-                        <li>Responses are dynamically generated using the retrieved data, ensuring up-to-date and accurate information is provided to the user.</li>
-                    </ul>
-                </p>
-
-               <h3 class="top-slide-target">Data Structuring and Management</h3>
-                <p class="top-slide-target">
-                    MongoDB Atlas manages the TravelBot database, with a focus on the **Tinfo** collection, which organizes city data such as hotels, restaurants, 
-                    attractions, and shopping. This structure enables efficient retrieval of relevant information, supporting the application’s ability to deliver 
-                    real-time, personalized travel recommendations. The well-organized database is essential to the smooth functionality of the entire system.
-                </p>
-                <img class="mongodb-image" src="images/GGA4.gif" alt="MongoDB Data Structuring and Management">
-      </section>
-
 <!-- Code Highlights -->
 <section class="code-highlight-section">
     <h2>Code Highlights</h2>
     <div class="explanation-code-container">
         <div class="explanation left">
-            <h3>Advanced Natural Language Understanding with spaCy</h3>
-            <h4>Code Snippet: nlp_processing.py (from main.py)</h4>
+            <h3>Data Reorganization Function</h3>
+            <h4>Code Snippet: merge_and_move_folders Function</h4>
             <p><b>Challenge:</b>
-            The chatbot needed to handle diverse user inputs, including casual conversation, specific queries, and contextual follow-ups, while managing synonyms, typos, and language variations.
+                Consolidate and reorganize dataset directories while removing duplicates and handling potential naming conflicts.
             <br></br><b>Solution:</b>
             <ul>
-                <li>Used spaCy for tokenization, lemmatization, and part-of-speech tagging to parse inputs.</li>
-                <li>Extracted lemmas of tokens to match against keywords, improving accuracy with different word forms.</li>
-                <li>Maintained conversation context with session variables to handle follow-up questions.</li>
+                <li>Computed MD5 hashes to identify and skip duplicate files.</li>
+                <li>Implemented a renaming mechanism to prevent overwriting files with the same name.</li>
+                <li>Automated the merging process to handle multiple directories efficiently.</li>
             </ul>
         </p>
         <p>
             <b>Reflection:</b>
-            Demonstrated advanced NLP skills, overcoming the limitations of simple keyword matching, and enhancing the chatbot's ability to handle varied inputs for a better user experience.
+            Effective data organization is foundational for machine learning projects. Automating this step reduced errors and ensured consistency in the dataset.
             </p>
         </div>
-        <div class="code-block right" id="nlp-processing-code-snippet">
-            <!-- The nlp_processing.py code snippet will be loaded here -->
+        <div class="code-block right" id="CS1-code-snippet">
         </div>
     </div>
 </section>
@@ -261,22 +234,20 @@
 <section class="code-highlight-section">
     <div class="explanation-code-container reverse">
         <div class="explanation right">
-            <h3>Efficient Data Retrieval and Dynamic Response Generation from MongoDB</h3>
-            <h4>Code Snippet: data_retrieval.py (from main.py)</h4>
-            <p><b>Challenge:</b> Retrieve and present specific information from MongoDB based on nuanced user queries while ensuring performance and scalability.
+            <h3>Custom CNN Model Definition</h3>
+            <h4>Code Snippet: make_model Function</h4>
+            <p><b>Challenge:</b> Designing a CNN architecture suitable for detecting brain tumours with high accuracy on a limited dataset.
             <br></br><b>Solution:</b>
             <ul>
-                <li><strong>Optimized Database Schema:</strong> Structured MongoDB documents for efficient querying, with indexes on frequently searched fields.</li>
-                <li><strong>Dynamic Query Building:</strong> Built functions to dynamically generate queries based on user input, minimizing database load.</li>
-                <li><strong>Response Personalization:</strong> Used data directly fetched from the database to create personalized, accurate responses.</li>
+                <li><strong>Depthwise Separable Convolutions:</strong>Reduced the number of parameters, making the model more efficient.</li>
+                <li><strong>Residual Connections:</strong> Improved gradient flow and training stability.</li>
+                <li><strong>Regularization:</strong> Used dropout and batch normalization to prevent overfitting.</li>
             </ul>
         </p>
-        <p><b>Reflection:</b> Demonstrated skills in advanced database querying and efficient code structuring. Successfully handled dynamic user requests without 
-            compromising performance, improving chatbot responsiveness and accuracy.
+        <p><b>Reflection:</b> Custom architectures can be tailored to specific datasets and tasks, achieving a balance between complexity and performance.
         </p>
         </div>
-        <div class="code-block right" id="data-retrieval-code-snippet">
-            <!-- The data_retrieval.py code snippet will be loaded here -->
+        <div class="code-block right" id="CS2-code-snippet">
         </div>
     </div>
 </section>
@@ -284,42 +255,95 @@
 <section class="code-highlight-section">
     <div class="explanation-code-container">
         <div class="explanation left">
-            <h3>State Management and Context Preservation Across User Sessions</h3>
-            <h4>Code Snippet: session_management.py (from main.py)</h4>
-            <p><strong>Challenge:</strong> Maintain conversation context across multiple user inputs to provide coherent responses, while managing stateless HTTP requests in a web application.</p>
+            <h3>Feature Extraction Function</h3>
+            <h4>Code Snippet: extract_features Function</h4>
+            <p><strong>Challenge:</strong> Efficiently extract features from large pre-trained models while managing computational resources.</p>
             <p><strong>Solution:</strong></p>
             <ul>
-                <li><strong>Flask's Session Management:</strong> Used Flask’s session object to store user-specific data across multiple requests.</li>
-                <li><strong>Chat History System:</strong> Stored user and chatbot messages to reference previous interactions and maintain conversation flow.</li>
-                <li><strong>Thread Safety:</strong> Ensured session data was managed properly to prevent data leakage between users.</li>
+                <li><strong>Batch Processing:</strong> Processed data in batches to prevent memory overflow.</li>
+                <li><strong>Caching:</strong> Saved extracted features and labels to disk to avoid redundant computations.</li>
+                <li><strong>Conditional Loading:</strong> Implemented checks to load existing features if they were already computed.</li>
             </ul>
-            <p><strong>Reflection:</strong> Demonstrated effective session management in a web application. Overcame the challenge of preserving conversational context, enhancing the chatbot's coherence and user experience.</p>
+            <p><strong>Reflection:</strong> Efficient data handling is crucial when working with large datasets and models. Optimizing this process saved time and computational resources.</p>
         </div>
-        <div class="code-block right" id="session-management-code-snippet">
-            <!-- The session_management.py code snippet will be loaded here -->
+        <div class="code-block right" id="CS3-code-snippet">
         </div>
     </div>
 </section>
 
+<section class="code-highlight-section">
+    <h2>Summary Report</h2>
+    <embed src="assets/summary-report.pdf" type="application/pdf" width="100%" height="600px" />
+</section>
 
+        <section class="code-highlight-section">
+            <h2>Overall Results & Insights</h2>
+                        <h3>Performance Summary</h3>
+                        <div class="performance-summary">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Model</th>
+                                        <th>Training Accuracy</th>
+                                        <th>Validation Accuracy</th>
+                                        <th>Loss</th>
+                                        <th>Val Loss</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>VGG16 (epoch 24)</td>
+                                        <td>99.86%</td>
+                                        <td>98.82%</td>
+                                        <td>0.025</td>
+                                        <td>0.05</td>
+                                    </tr>
+                                    <tr>
+                                        <td>ResNet50 (epoch 24)</td>
+                                        <td>99.98%</td>
+                                        <td>98.95%</td>
+                                        <td>0.018</td>
+                                        <td>0.04</td>
+                                    </tr>
+                                    <tr>
+                                        <td>InceptionV3 (epoch 24)</td>
+                                        <td>98.86%</td>
+                                        <td>96.57%</td>
+                                        <td>0.035</td>
+                                        <td>0.07</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Custom CNN (epoch 14)</td>
+                                        <td>98.98%</td>
+                                        <td>99.10%</td>
+                                        <td>0.022</td>
+                                        <td>0.045</td>
+                                    </tr>
+                                </tbody>
+                            </table>                            
+                        </div>
+            <h3>Insights</h3>
+            <p class="top-slide-target">
+                The training and validation accuracy graphs showed consistent improvement over the epochs, with minimal overfitting observed.
+                The high validation accuracy and low validation loss for VGG16, ResNet50, and the Custom CNN model indicate their robustness in detecting brain tumours.
+            </p>
+            <ul>
+                <li><b>Model Performance:</b> All models achieved high accuracy, with the Custom CNN slightly outperforming the others in validation accuracy.</li>
+                <li><b>Data Augmentation:</b> Significantly improved the models' ability to generalize.</li>
+                <li><b>Transfer Learning:</b> Leveraging pre-trained models accelerated training and improved performance.</li>
+                <li><b>Gradio Integration:</b> Enhanced accessibility and user engagement with the models.</li>
+            </ul>
+        </section>
+        
       <!-- Conclusion -->
       <section class="code-highlight-section">
                 <h2>Conclusion</h2>
                 <p class="top-slide-target">
-                        GlobalGuideAI successfully redefines travel planning by integrating cutting-edge 
-                        AI technology with a user-focused design. Through advanced natural language processing 
-                        with spaCy, efficient data management via MongoDB, and seamless front-end and back-end 
-                        communication, the platform delivers a highly personalized and intuitive travel experience.
-                     <br></br>
-                        The project tackled complex challenges like dynamic data retrieval, contextual understanding 
-                        across sessions, and optimized system performance, ensuring users receive relevant and timely 
-                        travel recommendations. By employing Agile methodologies and a user-centric development process, 
-                        GlobalGuideAI was iteratively refined to meet user needs with precision.
-                    <br></br>
-                        This project highlights expertise in full-stack development, natural language processing, AI-driven 
-                        functionality, and scalable database management. With its adaptable architecture and robust feature 
-                        set, GlobalGuideAI serves as a powerful example of how modern technologies can transform user engagement
-                         and simplify complex tasks like travel planning.
+                    BrainTumourDetectionAI demonstrates the effective application of deep learning techniques in medical imaging for early tumour detection. 
+                    By utilizing both custom CNN models and transfer learning with pre-trained networks, high accuracy in classifying MRI images for tumour 
+                    presence was achieved. Integrating Gradio provided a user-friendly platform for real-time testing, making the AI system accessible to 
+                    medical professionals and researchers. This project highlights the importance of data preprocessing, model optimization, and user 
+                    interface design in developing AI solutions for healthcare.
                 </p>
       </section>
 <script>
@@ -345,9 +369,9 @@
     }
 
     // Load the JavaScript code snippets for each file
-    loadCodeSnippet('code_snippets/nlp_processing.py', 'nlp-processing-code-snippet');
-    loadCodeSnippet('code_snippets/data_retrieval.py', 'data-retrieval-code-snippet');
-    loadCodeSnippet('code_snippets/session_management.py', 'session-management-code-snippet');
+    loadCodeSnippet('code_snippets/CS1.py', 'CS1-code-snippet');
+    loadCodeSnippet('code_snippets/CS2.py', 'CS2-code-snippet');
+    loadCodeSnippet('code_snippets/CS3.py', 'CS3-code-snippet');
 </script>
 
   <script>
@@ -380,18 +404,17 @@
   rightExplanations.forEach(el => observer.observe(el));
   topSlideTargets.forEach(el => observer.observe(el));
 });
-
   </script>
 
 <!-- Footer Section -->
 <footer>
     <div class="footer-container">
-        <p>&copy; 2024 GlobalGuideAI. All Rights Reserved. | Designed and developed by Manha Malik.</p>
+        <p>&copy; 2024 BrainTumourDetectionAI. All Rights Reserved. | Designed and developed by Manha Malik.</p>
         <div class="social-icons">
             <a href="https://manhamalik.com/" target="_blank"><i class="fa-solid fa-briefcase"></i></a>
             <a href="https://www.linkedin.com/in/manha-m/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
             <a href="https://github.com/manhamalik?tab=repositories" target="_blank"><i class="fa-brands fa-github-square"></i></a>
-            <a href="mailto:manha4512@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+            <a href="mailto:info@manhamalik.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
         </div>
     </div>
 </footer>

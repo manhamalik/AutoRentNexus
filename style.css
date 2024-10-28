@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+Multani');
 
 :root {
-    --main-color: #0a2e77;
-    --accent-color: #A0FFCD;
+    --main-color: #233b48;
+    --accent-color: #f9c431;
 }
 
 /* FFDD57 */
@@ -50,7 +50,7 @@ h2 {
     margin:0;
 }
 
-p, ol, ul, li {
+p, ol, ul, li, tr, th {
     color: white;
 }
 
@@ -132,6 +132,25 @@ iframe, video {
     border-radius: 10px;
     display: block;
     border: 2px solid var(--accent-color);
+}
+
+.performance-summary table {
+    width: 100%;
+}
+.performance-summary th,
+.performance-summary td {
+    padding: 10px;
+    text-align: center;
+}
+.performance-summary th {
+    background-color: var(--accent-color);; 
+    color: black;
+}
+.performance-summary td {
+    background-color: #2A2A2A;
+}
+.performance-summary tbody tr:last-child td {
+    border-bottom: none;
 }
 
 /* animations */
