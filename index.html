@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BrainTumourDetectionAI</title>
-    <link rel="icon" href="images/tb.png" type="image/png">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism-tomorrow.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/prism.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-javascript.min.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AutoRentNexus</title>
+        <link rel="icon" href="images/tb.png" type="image/png">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism-tomorrow.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/prism.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-java.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
 <body>
     <header>
                 <!-- GIF Preview -->
                 <div class="gif">
-                    <img src="images/bttd.png" alt="BrainTumourDetectionAI Website GIF">
+                    <img src="images/bttd.png" alt="AutoRentNexus Website GIF">
                 </div>
         
         <div class="github-logo-container">
-            <a href="https://github.com/manhamalik/Brain_Tumour_Detection_AI" target="_blank" class="github-btn" aria-label="Visit Project GitHub">
+            <a href="https://github.com/manhamalik/AutoRentNexusCode" target="_blank" class="github-btn" aria-label="Visit Project GitHub">
                 <i class="fab fa-github"></i>
             </a>
         </div>
@@ -35,22 +35,14 @@
   <section class="content">
     <div class="container">
         <div class="description top-slide-target">
-            <h1>BrainTumourDetectionAI: Accelerating Medical Diagnosis</h1>
+            <h1>AutoRentNexus: Vehicle Rental Management System</h1>
             <p>
-                Brain Tumour Detection AI is an advanced deep learning project aimed at aiding medical professionals in the early detection of 
-                brain tumours using MRI scans. By leveraging state-of-the-art convolutional neural networks (CNNs) and transfer learning with 
-                pre-trained models like VGG16, InceptionV3, and ResNet50, the project achieved up to 99% accuracy in classifying MRI images for 
-                tumour presence. Integrated with Gradio, it provides a real-time interface for testing, ensuring seamless deployment and reliable
-                results across diverse datasets.
+                AutoRent Nexus is a Java-based system designed to automate vehicle management, bookings, and customer profiles for car rental agencies. 
+                The application enhances rental efficiency by providing real-time vehicle availability tracking, cost calculations, and streamlined booking 
+                processes. By automating core functions such as vehicle management, customer service, and rental transactions, AutoRent Nexus aims to reduce
+                 manual workloads and improve overall customer satisfaction in the car rental industry.
             </p>
-            <p><strong>Technologies and Tools:</strong></p>
-                <ul>
-                    <li><strong>Programming:</strong> Python</li>
-                    <li><strong>Machine Learning & Deep Learning:</strong> TensorFlow, Keras, VGG16, InceptionV3, ResNet50</li>
-                    <li><strong>Data Science & Visualization:</strong> NumPy, Matplotlib, Pandas</li>
-                    <li><strong>Image Processing & Computer Vision:</strong> OpenCV</li>
-                    <li><strong>Development & Deployment:</strong> Gradio, Google Colab, Kaggle API, GitHub</li>
-                </ul>
+            <p><strong>Tools Used:</strong> Java, JUnit, Maven, Lucidchart, GitHub, Visual Studio Code</p>
         </div>
     </div>
   </section>
@@ -60,19 +52,20 @@
     <div class="container">
         <div class="methodologies">
             <h2>Development Process & Methodologies</h2>
-            <h3 class="top-slide-target">Agile & Scrum Methodologies</h3>
+            <h3 class="top-slide-target">Agile Methodology</h3>
             <p class="top-slide-target">
-                The development process adhered to Agile principles, organized into iterative sprints focusing on data preprocessing, 
-                model development, and evaluation. Scrum practices facilitated tracking progress, conducting regular reviews, and 
-                adapting to evolving requirements. This ensured that challenges were promptly addressed, and key features like model
-                optimization and real-time testing were effectively prioritized and delivered.
+                The development of AutoRent Nexus followed Agile principles, allowing for iterative development and continuous improvement. Regular feedback was 
+                incorporated to refine features such as booking confirmation, vehicle availability tracking, and invoice generation.
             </p>
             <h3 class="top-slide-target">Testing</h3>
             <p class="top-slide-target">
-                <b>1. Cross-Validation:</b> Used to assess the model's ability to generalize to unseen data.
-                <br><b>2. Evaluation Metrics:</b> Accuracy, sensitivity, specificity, AUC, and AUROC were calculated to evaluate model performance.
-                <br><b>3. Manual Testing:</b> Diverse MRI images were used to manually test the models, ensuring robustness and reliability.
-                <br><b>4. Continuous Monitoring:</b> Training logs and graphs were analyzed to detect overfitting and underfitting.
+                JUnit was integrated for unit testing critical components of the system, ensuring reliability and correctness of functionalities such as booking 
+                calculations, vehicle availability checks, and customer profile management.
+            </p>
+            <h3 class="top-slide-target">Maven Integration</h3>
+            <p class="top-slide-target">
+                Maven was used for project management and build automation, simplifying dependency management and facilitating a consistent build process across 
+                the development environment.
             </p>
         </div>
     </div>
@@ -82,148 +75,112 @@
   <section class="content">
     <div class="container">
         <!-- User Stories -->
-        <h2 class="top-slide-target">Design Process (User Stories, Site Map, Wireframes, Prototype)</h2>
+        <h2 class="top-slide-target">Design Process (User Stories, Class Diagram, Design Report)</h2>
         <div class="explanation-visuals">
             <div class="explanation left">
                 <h3>User Stories</h3>
-                <p>User stories were developed to prioritize essential user experiences, focusing on medical professionals, researchers, and developers.
+                <p>User stories were developed to prioritize key user experiences, focusing on administrators and customers.
                 </p>
             </div>
             <div class="visual right">
-                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="600" height="400" src="https://embed.figma.com/design/2lH5mnVR0sfLVjEBxBEmL7/BrainTumourDetectionAI?node-id=184-3207&embed-host=share" allowfullscreen loading="lazy"></iframe>
+                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="600" height="400" src="https://embed.figma.com/design/0kzaUDxPw7EW91heAU3NJd/AutoRentNexus?node-id=184-3207&embed-host=share" allowfullscreen loading="lazy"></iframe>
             </div>
         </div>
 
-        <!-- Data Flow Diagram -->
-        <div class="explanation-visuals">
+        <!-- Class Diagram -->
+        <div class="explanation-visuals" style="margin-bottom:0;">
             <div class="visual left">
-                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="600" height="400" src="https://embed.figma.com/design/2lH5mnVR0sfLVjEBxBEmL7/BrainTumourDetectionAI?node-id=186-3225&embed-host=share" allowfullscreen loading="lazy"> </iframe>
-            </div>
+                <img 
+                  style="border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 8px;" 
+                  width="550" 
+                  height="300" 
+                  src="images/UML.png" 
+                  alt="UML"
+                >
+              </div>
+              
             <div class="explanation right">
-                <h3>Data Flow Diagram</h3>
+                <h3>Class Diagram</h3>
                 <p>
-                    The Data Flow Diagram shows the process from MRI image upload to prediction display. Images are input, preprocessed, and used for model training. 
-                    Trained models are saved, enabling users to upload images via Gradio for inference. The system then outputs a prediction with confidence scores for easy interpretation.         
+                    The class diagram for AutoRent Nexus outlines the key classes and their relationships within the system. The Admin class 
+                    oversees vehicle management, bookings, and customer profiles. Customer stores personal details and rental history, while 
+                    Booking manages booking information and cost calculations. The Vehicle class captures details like model, rental price, and
+                    availability, linked to VehicleType, which defines vehicle categories and daily rates. Invoice handles billing for each 
+                    booking, and Rents maintains a record of all rented vehicles. These interconnected classes form the backbone of AutoRentNexus, 
+                    supporting streamlined rental management.  
                 </p>
             </div>
         </div>
-
-        <!-- Wireframes -->
-        <div class="explanation-visuals">
-            <div class="explanation left">
-                <h3>Model Architecture</h3>
-                <p>
-                    The model architecture combines a custom CNN with transfer learning models (VGG16, InceptionV3, ResNet50) to maximize prediction accuracy. 
-                    Custom layers were developed to optimize the models' ability to detect tumours in MRI scans, providing a robust and versatile solution for brain tumour detection.
-                </p>
-            </div>
-            <div class="visual right">
-                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="600" height="400" src="https://embed.figma.com/design/2lH5mnVR0sfLVjEBxBEmL7/BrainTumourDetectionAI?node-id=9426-5&embed-host=share" allowfullscreen loading="lazy"></iframe>
-            </div>
-        </div>
-
-        <!-- Prototype (Desktop & Mobile) -->
-        <div class="explanation-visuals">
-            
-            
-        </div>
+         <!-- Design Report-->
+        <section class="code-highlight-section">
+            <h2 class="top-slide-target" style="margin-bottom: 10px; margin-top:0;">Design Report</h2>
+            <embed class="top-slide-target" src="assets/design-report.pdf" type="application/pdf" width="100%" height="600px" tabindex="-1" />
+        </section>
     </div>
   </section>
 
-  <!-- Feature Demonstrations (Video Clips) -->
+  <!-- System Capabilities and Key User Actions -->
   <section class="content">
     <div class="container">
-        <h2 class="top-slide-target">Feature Demonstrations</h2>
-        <!-- VGG16 Model -->
-        <div class="explanation-visuals">
-            <div class="explanation left">
-                <h3>VGG16 Model Test</h3>
-                <p>
-                    Using VGG16 for feature extraction, the AI model processes uploaded MRI images to predict tumour presence, displaying tumour probabilities
-                     along with training accuracy and loss graphs. This model achieves a validation accuracy of approximately 98.82%.
+        <h2 class="top-slide-target">System Capabilities and Key User Actions</h2>
+                <h3 class="top-slide-target" style="margin-bottom: 0; padding-bottom: 0;">Admin Account Creation and Login</h3>
+                <p class="top-slide-target">
+                    Admins can create an account and log in to the system. After logging in, they have access to functionalities such as 
+                    managing vehicles and customers, and processing bookings.                
                 </p>
-            </div>
-            <div class="visual right">
-                <video src="videos/VGG16.mp4" controls width="100%"></video>
-            </div>
-        </div>
+                <h3 class="top-slide-target" style="margin-bottom: 10px;">Vehicle Management</h3>
+                <ul class="top-slide-target" style="margin-top: 0; padding-top: 0;">
+                    <li><b>Add Vehicles:</b> Input vehicle details including model, type, and rental price.</li>
+                    <li><b>Update Vehicles:</b> Modify existing vehicle information.</li>
+                    <li><b>Remove Vehicles:</b> Delete vehicles from the system.</li>
+                    <li><b>View Vehicles:</b> Display a list of all vehicles with their current status.</li>
+                </ul>
+                
+                <h3 class="top-slide-target" style="margin-bottom: 10px;">Customer Management</h3>
+                <ul class="top-slide-target" style="margin-top: 0; padding-top: 0;">
+                    <li><b>Create Customer Profiles:</b> Enter customer details like name, email, phone, and address.</li>
+                    <li><b>Edit Customer Profiles:</b> Update customer information.</li>
+                    <li><b>Remove Customer Profiles:</b> Delete customers from the system.</li>
+                    <li><b>View Customers:</b> Display a list of all customers.</li>
+                </ul>
+                
+                <h3 class="top-slide-target" style="margin-bottom: 10px;">Booking Process</h3>
+                <ul class="top-slide-target" style="margin-top: 0; padding-top: 0;">
+                    <li><b>Search Available Vehicles:</b> Based on date range and vehicle type.</li>
+                    <li><b>Confirm Bookings:</b> Reserve vehicles for customers, ensuring no double bookings occur.</li>
+                    <li><b>Calculate Booking Costs:</b> Total cost is computed based on rental period and vehicle type.</li>
+                    <li><b>Generate Invoices:</b> Create invoices for confirmed bookings.</li>
+                </ul>
 
-        <!-- ResNet50 Model -->
-        <div class="explanation-visuals">
-            <div class="visual left">
-                <video src="videos/ResNet50.mp4" controls width="100%"></video>
-            </div>
-            <div class="explanation right">
-                <h3>ResNet50 Model Test</h3>
-                <p>
-                    With ResNet50 as the feature extractor, the model provides confidence scores for tumour prediction after an MRI upload. 
-                    Training and validation graphs confirm strong performance, reaching around 98.95% validation accuracy with effective learning.
+                <h3 class="top-slide-target" style="margin-bottom: 0; padding-bottom: 0;">Email Notification</h3>
+                <p class="top-slide-target">
+                    Upon confirming a booking, the system generates an invoice and simulates sending an email to the customer with the booking confirmation and invoice details.               
                 </p>
-            </div>
-        </div>
-
-        <!-- InceptionV3 Model -->
-        <div class="explanation-visuals">
-            <div class="explanation left">
-                <h3>InceptionV3 Model Test</h3>
-                <p>
-                    This model utilizes InceptionV3 for feature extraction, predicting tumour likelihood from uploaded MRI images. 
-                    Training and validation graphs show a validation accuracy of about 96.57%.
-                </p>
-            </div>
-            <div class="visual right">
-                <video src="videos/InceptionV3.mp4" controls width="100%"></video>
-            </div>
-        </div>
-
-        <!-- CNN Model -->
-        <div class="explanation-visuals">
-            <div class="visual left">
-                <video src="videos/CNN.mp4" controls width="100%"></video>
-            </div>
-            <div class="explanation right">
-                <h3>Custom CNN Model Test</h3>
-                <p>
-                    Built from scratch, the custom CNN model processes MRI images without pre-trained weights, offering high-confidence predictions. 
-                    Training and validation graphs indicate robust performance, achieving a validation accuracy of approximately 99.10%.
-                </p>
-            </div>
-        </div>
-
-        <!-- Gradio Interface and Code Walkthrough -->
-        <div class="explanation-visuals">
-            <div class="explanation left">
-                <h3>Gradio Interface and Code Walkthrough</h3>
-                <p>
-                    This video provides a guided walkthrough of the Google Colab environment, showcasing the code structure, validation loss and accuracy
-                     charts, dataset visualizations, and the various models used, including pretrained architectures.
-                      It highlights the model training processes and results.
-                </p>
-            </div>
-            <div class="visual right">
-                <video src="videos/Code.mp4" controls width="100%"></video>
-            </div>
-        </div>
+    
+                <video class="top-slide-target"  style="border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 8px;" 
+                width="550" 
+                height="300" src="videos/AutoRentNexus.mp4" controls width="100%"></video>
 
 <!-- Code Highlights -->
 <section class="code-highlight-section">
     <h2>Code Highlights</h2>
     <div class="explanation-code-container">
         <div class="explanation left">
-            <h3>Data Reorganization Function</h3>
-            <h4>Code Snippet: merge_and_move_folders Function</h4>
+            <h3>Implementing Real-Time Vehicle Availability Tracking</h3>
+            <h4>Code Snippet: Vehicle.java</h4>
             <p><b>Challenge:</b>
-                Consolidate and reorganize dataset directories while removing duplicates and handling potential naming conflicts.
+                Ensuring that vehicle availability is accurately tracked to prevent double bookings and scheduling conflicts.
             <br></br><b>Solution:</b>
             <ul>
-                <li>Computed MD5 hashes to identify and skip duplicate files.</li>
-                <li>Implemented a renaming mechanism to prevent overwriting files with the same name.</li>
-                <li>Automated the merging process to handle multiple directories efficiently.</li>
-            </ul>
+                <li><b>Booking List Maintenance:</b> Each Vehicle object maintains a list of its associated bookings.</li>
+                <li><b>Availability Check Method:</b> Implemented isAvailableForDates(Date startDate, Date endDate) to check availability against existing bookings.</li>
+                <li><b>State Update on Booking Confirmation:</b> Vehicle availability status is updated when a booking is confirmed.</li>
+            </ul>            
         </p>
         <p>
             <b>Reflection:</b>
-            Effective data organization is foundational for machine learning projects. Automating this step reduced errors and ensured consistency in the dataset.
+            This method provides a reliable way to track vehicle availability, ensuring that the booking process is robust and prevents conflicts. It underscores the 
+            importance of careful state management in object-oriented programming.
             </p>
         </div>
         <div class="code-block right" id="CS1-code-snippet">
@@ -234,17 +191,18 @@
 <section class="code-highlight-section">
     <div class="explanation-code-container reverse">
         <div class="explanation right">
-            <h3>Custom CNN Model Definition</h3>
-            <h4>Code Snippet: make_model Function</h4>
-            <p><b>Challenge:</b> Designing a CNN architecture suitable for detecting brain tumours with high accuracy on a limited dataset.
+            <h3>Calculating Booking Costs Based on Vehicle Type and Rental Period</h3>
+            <h4>Code Snippet: Booking.java</h4>
+            <p><b>Challenge:</b> Accurately calculating the total cost of a booking by considering the vehicle type's daily rate and the rental duration.
             <br></br><b>Solution:</b>
             <ul>
-                <li><strong>Depthwise Separable Convolutions:</strong>Reduced the number of parameters, making the model more efficient.</li>
-                <li><strong>Residual Connections:</strong> Improved gradient flow and training stability.</li>
-                <li><strong>Regularization:</strong> Used dropout and batch normalization to prevent overfitting.</li>
-            </ul>
+                <li><strong>Cost Calculation Method:</strong> Implemented calculateCost(double dailyRate, int numberOfDays) to compute the total cost.</li>
+                <li><strong>Vehicle Type Integration:</strong> Utilized VehicleType enum to get the daily rate for the specific vehicle type.</li>
+                <li><strong>Duration Calculation:</strong> Calculated the number of days between the start and end dates.</li>
+            </ul>            
         </p>
-        <p><b>Reflection:</b> Custom architectures can be tailored to specific datasets and tasks, achieving a balance between complexity and performance.
+        <p><b>Reflection:</b> This functionality ensures transparent and accurate billing, enhancing customer trust. It highlights the critical role of precise 
+            calculations in financial aspects of software applications.
         </p>
         </div>
         <div class="code-block right" id="CS2-code-snippet">
@@ -255,96 +213,45 @@
 <section class="code-highlight-section">
     <div class="explanation-code-container">
         <div class="explanation left">
-            <h3>Feature Extraction Function</h3>
-            <h4>Code Snippet: extract_features Function</h4>
-            <p><strong>Challenge:</strong> Efficiently extract features from large pre-trained models while managing computational resources.</p>
+            <h3>Integrating JUnit for Automated Testing</h3>
+            <h4>Code Snippet: VehicleTest.java</h4>
+            <p><strong>Challenge:</strong> Ensuring the reliability of critical methods through automated unit testing.</p>
             <p><strong>Solution:</strong></p>
             <ul>
-                <li><strong>Batch Processing:</strong> Processed data in batches to prevent memory overflow.</li>
-                <li><strong>Caching:</strong> Saved extracted features and labels to disk to avoid redundant computations.</li>
-                <li><strong>Conditional Loading:</strong> Implemented checks to load existing features if they were already computed.</li>
-            </ul>
-            <p><strong>Reflection:</strong> Efficient data handling is crucial when working with large datasets and models. Optimizing this process saved time and computational resources.</p>
+                <li><strong>Test Cases for Availability:</strong> Wrote JUnit tests for isAvailableForDates to verify correct behavior under various scenarios.</li>
+                <li><strong>Boundary Testing:</strong> Included tests for overlapping and non-overlapping date ranges.</li>
+                <li><strong>Setup and Teardown:</strong> Utilized JUnit annotations to manage test setup.</li>
+            </ul>            
+            <p><strong>Reflection:</strong> Integrating JUnit testing improved code reliability and facilitated early detection of bugs. It reinforced best practices in test-driven development.</p>
         </div>
         <div class="code-block right" id="CS3-code-snippet">
         </div>
     </div>
 </section>
 
-<section class="code-highlight-section">
-    <h2>Summary Report</h2>
-    <embed src="assets/summary-report.pdf" type="application/pdf" width="100%" height="600px" tabindex="-1" />
-
-</section>
-
         <section class="code-highlight-section">
-            <h2>Overall Results & Insights</h2>
-                        <h3>Performance Summary</h3>
-                        <div class="performance-summary">
-                            <table>
-                                <thead>
-                                    <tr>
-                                        <th>Model</th>
-                                        <th>Training Accuracy</th>
-                                        <th>Validation Accuracy</th>
-                                        <th>Loss</th>
-                                        <th>Val Loss</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>VGG16 (epoch 24)</td>
-                                        <td>99.86%</td>
-                                        <td>98.82%</td>
-                                        <td>0.025</td>
-                                        <td>0.05</td>
-                                    </tr>
-                                    <tr>
-                                        <td>ResNet50 (epoch 24)</td>
-                                        <td>99.98%</td>
-                                        <td>98.95%</td>
-                                        <td>0.018</td>
-                                        <td>0.04</td>
-                                    </tr>
-                                    <tr>
-                                        <td>InceptionV3 (epoch 24)</td>
-                                        <td>98.86%</td>
-                                        <td>96.57%</td>
-                                        <td>0.035</td>
-                                        <td>0.07</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Custom CNN (epoch 14)</td>
-                                        <td>98.98%</td>
-                                        <td>99.10%</td>
-                                        <td>0.022</td>
-                                        <td>0.045</td>
-                                    </tr>
-                                </tbody>
-                            </table>                            
-                        </div>
-            <h3>Insights</h3>
-            <p class="top-slide-target">
-                The training and validation accuracy graphs showed consistent improvement over the epochs, with minimal overfitting observed.
-                The high validation accuracy and low validation loss for VGG16, ResNet50, and the Custom CNN model indicate their robustness in detecting brain tumours.
-            </p>
-            <ul>
-                <li><b>Model Performance:</b> All models achieved high accuracy, with the Custom CNN slightly outperforming the others in validation accuracy.</li>
-                <li><b>Data Augmentation:</b> Significantly improved the models' ability to generalize.</li>
-                <li><b>Transfer Learning:</b> Leveraging pre-trained models accelerated training and improved performance.</li>
-                <li><b>Gradio Integration:</b> Enhanced accessibility and user engagement with the models.</li>
+            <h2 class="top-slide-target">JUnit and Maven Integration</h2>
+            <h3 class="top-slide-target" style="margin-bottom: 0; padding-bottom: 0;">JUnit Testing</h3>
+            <ul class="top-slide-target">
+                <li><strong>Ensured Method Correctness:</strong> Verified that methods like isAvailableForDates and calculateCost work as expected.</li>
+                <li><strong>Regression Testing:</strong> Facilitated testing after code changes to ensure no new bugs were introduced.</li>
+                <li><strong>Test Coverage:</strong> Improved overall test coverage, enhancing code reliability.</li>
+            </ul>
+            <h3 class="top-slide-target" style="margin-bottom: 0; padding-bottom: 0;">Maven Project Management</h3>
+            <ul class="top-slide-target">
+                <li><strong>Dependency Management:</strong> Used Maven to manage project dependencies, simplifying library inclusion.</li>
+                <li><strong>Build Automation:</strong> Streamlined the build process, making it consistent and reproducible.</li>
+                <li><strong>Integration with IDE:</strong> Facilitated seamless integration with development environments like Visual Studio Code.</li>
             </ul>
         </section>
-        
+            
       <!-- Conclusion -->
       <section class="code-highlight-section">
-                <h2>Conclusion</h2>
+                <h2 class="top-slide-target">Conclusion</h2>
                 <p class="top-slide-target">
-                    BrainTumourDetectionAI demonstrates the effective application of deep learning techniques in medical imaging for early tumour detection. 
-                    By utilizing both custom CNN models and transfer learning with pre-trained networks, high accuracy in classifying MRI images for tumour 
-                    presence was achieved. Integrating Gradio provided a user-friendly platform for real-time testing, making the AI system accessible to 
-                    medical professionals and researchers. This project highlights the importance of data preprocessing, model optimization, and user 
-                    interface design in developing AI solutions for healthcare.
+                    AutoRent Nexus streamlines vehicle rental management, offering automated features for vehicle and customer management, booking processing, and invoice generation.
+                    With JUnit and Maven integration, it achieves high reliability and maintainability. This project showcases expertise in Java programming, object-oriented design, 
+                    and modern development tools and methodologies, delivering an efficient and scalable solution.
                 </p>
       </section>
 <script>
@@ -364,15 +271,15 @@
         .then(response => response.text())
         .then(data => {
             const escapedCode = escapeHTML(data);
-            document.getElementById(elementId).innerHTML = `<pre><code class="language-js">${escapedCode}</code></pre>`;
+            document.getElementById(elementId).innerHTML = `<pre><code class="language-java">${escapedCode}</code></pre>`;
             Prism.highlightAll(); // Re-highlight the code after loading
         });
     }
 
-    // Load the JavaScript code snippets for each file
-    loadCodeSnippet('code_snippets/CS1.py', 'CS1-code-snippet');
-    loadCodeSnippet('code_snippets/CS2.py', 'CS2-code-snippet');
-    loadCodeSnippet('code_snippets/CS3.py', 'CS3-code-snippet');
+    // Load Java code snippets for each file
+    loadCodeSnippet('code_snippets/Vehicle.java', 'CS1-code-snippet');
+    loadCodeSnippet('code_snippets/Booking.java', 'CS2-code-snippet');
+    loadCodeSnippet('code_snippets/VehicleTest.java', 'CS3-code-snippet');
 </script>
 
   <script>
@@ -410,7 +317,7 @@
 <!-- Footer Section -->
 <footer>
     <div class="footer-container">
-        <p>&copy; 2024 BrainTumourDetectionAI. All Rights Reserved. | Designed and developed by Manha Malik.</p>
+        <p>&copy; 2024 AutoRentNexus. All Rights Reserved. | Designed and developed by Manha Malik.</p>
         <div class="social-icons">
             <a href="https://manhamalik.com/" target="_blank"><i class="fa-solid fa-briefcase"></i></a>
             <a href="https://www.linkedin.com/in/manha-m/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
