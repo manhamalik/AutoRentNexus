@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+Multani');
 
 :root {
-    --main-color: #233b48;
-    --accent-color: #f9c431;
+    --main-color: #a70006;
+    --accent-color: #f5c9b6;
 }
 
 /* FFDD57 */
@@ -73,7 +73,7 @@ ol {
 }
 
 .gif img {
-    max-width: 100%;
+    max-width: 400px;
     height: auto;
     width: 50%;
     display: block;
